@@ -1,0 +1,78 @@
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(218, 218, 218);
+    }
+    
+    .footerMain{
+        width: 100%;
+        display: flex;
+        padding: 2rem 0;
+        align-items: center;
+
+    }
+    
+    .informationFooter{
+        list-style: none;
+        margin: 0 11% 0 5%;
+        padding: 10px 10px;
+        border-left: 3px solid #3131316b;
+    }
+    
+    .explorar{
+        display: flex;
+        flex-direction: column;
+        margin-right: 30%;
+        padding-left: 10px;
+        border-left: 3px solid #3131316b;
+    }
+
+    .redesMil{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .redesMil>p{
+        border-bottom: 3px solid #3131316b;
+        padding: 5px 15px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: rgba(34, 34, 34, 0.589);
+
+    }
+
+    .redesSociais>a{
+        display: flex;
+        justify-content:start;
+        text-decoration: none;
+        font-weight: bold;
+        color: #2525259c;
+        padding-bottom: 5px;
+        transition: .5s;
+
+    }
+
+    .redesSociais>a:hover{
+        transition: .5s;
+        color:#2e2e2e83;
+    }
+    
+    .redesSociais>a>img{
+        padding-right: 5px;
+    }
+
+    .direitosDeUso{
+        
+        padding: .5em 4em;
+        border-top: 1px solid #3131316b;
+    }
+
+    .direitosDeUso>a{
+        text-decoration: none;
+        font-family: arial;
+        font-weight: 600;
+        color:rgb(42, 167, 209);
+    }
